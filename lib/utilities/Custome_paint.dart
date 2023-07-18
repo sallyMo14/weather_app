@@ -18,7 +18,7 @@ class CustomePainterTestState extends State<CustomePainterTest> {
         children: [
           Center(
             child: CustomPaint(
-              size: Size(300, 170),
+              size: const Size(300, 170),
               painter: MyPainter(30),
             ),
           ),
